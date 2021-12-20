@@ -1,0 +1,18 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "tslint.configFile": "tslint.json",
+  "[typescript]": {
+    // ファイル保存時に自動フォーマットをしないようにする
+    "editor.formatOnSave": true,
+    // 貼り付けた内容に対して自動フォーマットをしないようにする
+    "editor.formatOnPaste": true,
+    // 入力後に行に対して自動フォーマットをしないようにする
+    "editor.formatOnType": false,
+    "editor.codeActionsOnSave": {
+      // 保存時に対して行われるアクションにtslintを設定する
+      "source.fixAll.tslint": true
+    }
+  }
+}
